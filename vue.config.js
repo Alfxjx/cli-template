@@ -5,7 +5,7 @@ const webpackConfig = {};
 
 if (process.env.NODE_ENV === "development") {
   webpackConfig.devServer = {
-    port: 8081, // 端口号
+    // port: 8081, // 端口号
     https: false, // https:{type:Boolean}
     open: false, // 配置自动启动浏览器,
     proxy: {
