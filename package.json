@@ -1,7 +1,7 @@
 {
   "name": "{{projectName}}",
-  "version": "{{projectVersion}}",
-  "description": "{{projectDescription}}",
+  "version": "1.0.0",
+  "description": "this is desc",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
