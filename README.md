@@ -1,4 +1,6 @@
-# afinfe-cli
+# {{projectName}}
+
+{{projectDescription}}
 
 ## Project setup
 ```
