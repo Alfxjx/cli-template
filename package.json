@@ -11,7 +11,9 @@
   "dependencies": {
     "axios": "^0.21.0",
     "core-js": "^3.6.5",
+    {{#if useEcharts}}
     "echarts": "^5.0.0",
+    {{/if}}
     "element-ui": "^2.14.1",
     {{#if usePass}}
     "js-md5": "^0.7.3",

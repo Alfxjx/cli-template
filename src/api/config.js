@@ -74,7 +74,7 @@ axiosInstance.interceptors.response.use(
 );
 
 // 对于某些使用form格式接口的适配
-function axiosFormRequest(url, data) {
+const axiosFormRequest = (url, data) => {
   return axiosBase.post(url, Qs.stringify(data), {
     headers: {
       "Content-Type": "application/x-www-form-urlencoded; charset=utf-8;"
