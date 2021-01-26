@@ -85,6 +85,7 @@ export function formatDate(inputTime, format) {
   return result;
 }
 
+// 导出execl下载
 export function excelDownload(url) {
   // 请求方法
   var method = "get";
@@ -135,4 +136,20 @@ export function excelDownload(url) {
 // 用于给按单页请求的表格设置一个统一的序号。
 export function parseIndex(index, current, size) {
   return 1 + index + (current - 1) * size;
+}
+
+/**
+ * @description 下载文件
+ * @author xujx
+ * @date 2021-01-26
+ * @param {*} name 文件名
+ * @param {*} url 文件的地址
+ */
+export function downloadFile(name, url) {
+  const aLink = document.createElement("a");
+  const evt = document.createEvent("MouseEvents");
+  evt.initMouseEvent("click", true, false, window, 0, 0, 0, 0, 0, false, false, false, false, 0, null);
+  aLink.download = name;
+  aLink.href = url;
+  aLink.dispatchEvent(evt);
 }
