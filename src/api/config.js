@@ -80,6 +80,6 @@ const axiosFormRequest = (url, data) => {
       "Content-Type": "application/x-www-form-urlencoded; charset=utf-8;"
     }
   });
-}
+};
 
 export { axiosInstance, axiosBase, axiosFormRequest };

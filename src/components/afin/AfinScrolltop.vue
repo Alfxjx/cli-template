@@ -9,11 +9,11 @@
 <script>
 export default {
   name: "top",
-  props:{
-      img:{
-          type: String,
-          default: "top"
-      }
+  props: {
+    img: {
+      type: String,
+      default: "top"
+    }
   },
   data() {
     return {

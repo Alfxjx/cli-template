@@ -3,7 +3,7 @@ import App from "./App.vue";
 import router from "./router/router.js";
 import store from "./store/store.js";
 import "./components/element.js";
-import Clickoutside from "./directives/clickOut.js";
+import Clickoutside from "./directives/clickout.js";
 
 Vue.config.productionTip = false;
 
