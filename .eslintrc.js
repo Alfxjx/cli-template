@@ -16,5 +16,6 @@ module.exports = {
     "space-before-function-paren": 0,
     "comma-dangle": 0,
     "dot-notation": 0,
+    "vue/no-unused-components": 0
   }
 };
