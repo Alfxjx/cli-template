@@ -1,6 +1,6 @@
 import Home from "@/views/home/index.vue";
 
-export const HomeRoutes = [
+export default [
   {
     path: "/",
     name: "Home",
