@@ -101,8 +101,7 @@
           @selection-change="handleSelectionChange"
         >
           <el-table-column type="selection" width="55"> </el-table-column>
-          <el-table-column label="日期" width="120">
-            <template slot-scope="scope">{{ scope.row.date }}</template>
+          <el-table-column prop="date" label="日期" width="120">
           </el-table-column>
           <el-table-column prop="name" label="姓名" width="120">
           </el-table-column>
