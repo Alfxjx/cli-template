@@ -1,5 +1,5 @@
 <template>
-  <div class="aside">
+  <el-scrollbar class="aside">
     <div class="logo">this is logo</div>
     <el-menu
       default-active="2"
@@ -41,7 +41,7 @@
         <span slot="title">导航四</span>
       </el-menu-item>
     </el-menu>
-  </div>
+  </el-scrollbar>
 </template>
 
 <script>
